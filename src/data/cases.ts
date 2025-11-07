@@ -124,11 +124,11 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'Continuous murmur peaking near S2, left infraclavicular.',
+        content: 'Murmur peaking near S2, left infraclavicular.',
       },
       {
         type: 'pathophys',
-        content: 'Bounding pulses; wide pulse pressure.',
+        content: 'Continuous quality spanning systole and diastole; bounding pulses.',
       },
       {
         type: 'image',
@@ -208,10 +208,10 @@ export const cases: Case[] = [
 
   {
     id: 'ps',
-    name: 'Pulmonic Stenosis (severe)',
+    name: 'Pulmonic Stenosis (valvular)',
     category: 'acyanotic-obstructive',
     recognition:
-      'Systolic ejection murmur at the LUSB with an ejection click; often a wide split S2 with a soft/delayed P2. Post-stenotic dilation of the main pulmonary artery can appear on CXR in valvar PS.',
+      'Systolic ejection murmur at the LUSB with an ejection click (indicating a mobile stenotic valve); often a wide split S2 with a soft/delayed P2. Post-stenotic dilation of the main pulmonary artery can appear on CXR.',
     hook: 'Physical behavior: Right-sided outflow murmurs may intensify with inspiration (↑ right-sided flow).',
     nearestDistractor: {
       name: 'Tetralogy of Fallot (TOF)',
@@ -249,7 +249,7 @@ export const cases: Case[] = [
       },
     ],
     reveal:
-      'An ejection click at the LUSB and a split S2 point to isolated PS. TOF is the common trap—but its single S2, cyanosis, and CXR profile separate it.',
+      'An ejection click at the LUSB indicates valvular PS with a mobile (not dysplastic) valve; the split S2 confirms isolated right-sided obstruction without VSD. TOF is the common trap—but its single S2, cyanosis, and boot-shaped CXR profile separate it.',
   },
 
   // CYANOTIC CONOTRUNCAL
@@ -403,7 +403,7 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'Cyanosis with tachypnea; loud S2 splitting.',
+        content: 'Cyanosis with tachypnea; widely split S2.',
       },
       {
         type: 'pathophys',
@@ -495,11 +495,11 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'LLSB holosystolic murmur louder with inspiration.',
+        content: 'LLSB holosystolic murmur; possible cyanosis.',
       },
       {
         type: 'pathophys',
-        content: 'Right-sided enlargement; possible cyanosis.',
+        content: 'Murmur intensifies with inspiration; massive right-sided enlargement.',
       },
       {
         type: 'image',
