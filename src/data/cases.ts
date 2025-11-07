@@ -268,11 +268,11 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'Single S2; child squats after exertion.',
+        content: 'Single S2; harsh systolic murmur at LUSB.',
       },
       {
         type: 'pathophys',
-        content: 'Harsh SEM at LUSB; oligemic lungs.',
+        content: 'Child squats after exertion; oligemic lungs.',
       },
       {
         type: 'image',
