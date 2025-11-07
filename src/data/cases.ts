@@ -31,7 +31,7 @@ export const cases: Case[] = [
       },
       {
         type: 'pathophys',
-        content: 'Systolic flow murmur at LUSB; mild exercise intolerance.',
+        content: 'Systolic flow murmur at LUSB; usually asymptomatic in childhood.',
       },
       {
         type: 'image',
@@ -171,11 +171,11 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'UE > LE BP; weak femoral pulses.',
+        content: 'Posterior systolic murmur between the scapulae.',
       },
       {
         type: 'pathophys',
-        content: 'Systolic murmur heard interscapular/back.',
+        content: 'UE > LE blood pressure; weak or delayed femoral pulses.',
       },
       {
         type: 'image',
@@ -268,11 +268,11 @@ export const cases: Case[] = [
     rungs: [
       {
         type: 'whisper',
-        content: 'Single S2; child squats after exertion.',
+        content: 'Single S2; harsh systolic murmur at LUSB.',
       },
       {
         type: 'pathophys',
-        content: 'Harsh SEM at LUSB; oligemic lungs.',
+        content: 'Child squats after exertion; oligemic lungs.',
       },
       {
         type: 'image',
