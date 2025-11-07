@@ -4,7 +4,11 @@
 
 A cognitive learning tool that trains second-year medical students to recognize the 12 most important congenital heart diseases using progressive disclosure, spaced repetition, and immediate contrastive feedback—the way they'll encounter them on Step 1.
 
----
+## 🎮 Play Now
+
+**👉 [Launch the Game](https://stevetodman.github.io/guessthechd/)** — Test your CHD pattern recognition skills!
+
+No installation required. Works in any modern browser.
 
 ## The Vision
 
