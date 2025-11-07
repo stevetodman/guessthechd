@@ -534,9 +534,9 @@ export const cases: Case[] = [
       'Gray, shocky neonate as the ductus closes: poor perfusion, weak pulses, acidosis. Heart sounds may be unremarkable or show a single prominent S2 (pulmonic). CXR can show cardiomegaly and pulmonary edema.',
     hook: 'Stabilization concept: Prostaglandin E₁ to maintain ductal patency while definitive care is arranged.',
     nearestDistractor: {
-      name: 'Severe sepsis',
+      name: 'Critical coarctation',
       whyNot:
-        'Sepsis may mimic shock, but pre/post-ductal saturation differences and critical dependence on ductal flow favor HLHS.',
+        'Critical CoA is also duct-dependent with shock, but typically has differential BP/pulses (strong UE, weak LE) and a posterior murmur. HLHS has globally weak pulses and no specific murmur.',
     },
     rungs: [
       {
@@ -545,7 +545,7 @@ export const cases: Case[] = [
       },
       {
         type: 'pathophys',
-        content: 'Weak pulses; differential sats possible.',
+        content: 'Globally weak pulses (not differential); no murmur; single prominent S2.',
       },
       {
         type: 'image',
@@ -565,7 +565,7 @@ export const cases: Case[] = [
       },
     ],
     reveal:
-      'The system collapses as systemic flow disappears with ductal closure. Think duct-dependent left-sided outflow obstruction: keep the duct open first; detailed surgical pathways are beyond Step 1 scope.',
+      'The system collapses as systemic flow disappears with ductal closure. Distinguish from critical CoA by globally weak pulses (not differential UE > LE) and lack of murmur. Think duct-dependent left-sided outflow obstruction: keep the duct open first with PGE₁.',
   },
 ];
 
